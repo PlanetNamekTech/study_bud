@@ -17,7 +17,7 @@ class Room(models.Model):
   name = models.CharField(max_length=200)
   # null and blank allowed to be left blank upon creation with True
   description = models.TextField(null=True, blank=True) 
-  #participants = 
+  participants = models.ManyToManyField(User, related_name='participants', blank=True)
   updated = models.DateTimeField(auto_now=True)
   created = models.DateTimeField(auto_now_add=True)
 
