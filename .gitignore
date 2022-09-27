@@ -157,3 +157,4 @@ base/.DS_Store
 base/templates/.DS_Store
 base/templates/base/.DS_Store
 base/templates/base/home_old.html
+base/templates/base/profile_old.html
