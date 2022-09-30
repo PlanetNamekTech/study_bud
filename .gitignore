@@ -159,3 +159,4 @@ base/templates/base/.DS_Store
 base/templates/base/home_old.html
 base/templates/base/profile_old.html
 base/templates/base/room_old.html
+base/templates/base/room_form_old.html
